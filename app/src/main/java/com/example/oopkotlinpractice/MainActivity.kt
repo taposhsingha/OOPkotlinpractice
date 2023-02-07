@@ -10,7 +10,11 @@ class MainActivity : AppCompatActivity() {
         //val car = Car()
         //car.maxSpeed =150
         //car.start()
-        val d= Driver("Tom",37)
-        d.showDetails()
+        //val d= Driver("Tom",37)
+        //d.showDetails()
+
+        val myCar = MyCar()
+        myCar.maxSpeed = 350
+        myCar.start()
     }
 }

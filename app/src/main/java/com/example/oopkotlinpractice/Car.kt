@@ -4,7 +4,7 @@ import android.util.Log
 
 open class Car {
     var maxSpeed = 30
-    fun start(){
+    open fun start(){
         Log.i("MyTag","Car is starting...")
         Log.i("MyTag","maximum speed is $maxSpeed")
     }
